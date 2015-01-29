@@ -1,10 +1,7 @@
 ---
 layout: post
-title: alicrackme review
+title: alicrackme
 author: ilsec
 ---
 
-###说明
-
-能力不够，所以未参加阿里的移动安全挑战赛，但是阻止不了我学习大牛的破解思路，这里就从大牛的破解思路学习android破解。
-
+只是希望用此帮助脑袋存储学到的与将要学习的知识。
