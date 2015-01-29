@@ -8,6 +8,6 @@ js:
  - examples.js
 ---
 
-###why make this site ?###
+##why make this site ?
 
-> for learnning.
+```for learnning.```
