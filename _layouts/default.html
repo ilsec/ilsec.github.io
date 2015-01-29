@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
+    <title>Ronin - {{ page.title }}</title>
+
+    {% if page.feed != null %}
+    <link rel="alternate" type="application/atom+xml" title="{{page.title }} Feed" href="{{ page.feed }}" />
+    {% else %}
+    <link rel="alternate" type="application/atom+xml" title="Ronin Blog Feed" href="/blog/atom.xml" />
+    {% endif %}
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/highlight.css"/>
+    <link rel="stylesheet" type="text/css" media="print" href="/css/print.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/default.css"/>
+
+    {% if page.css != null %}
+    {% for css in page.css %}
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/{{ css }}" />
+    {% endfor %}
+    {% endif %}
+    <!--[if IE]><link rel="stylesheet" type="text/css" media="screen" href="/css/ie.css"/><![endif]-->
+
+    {% if page.js != null %}
+    {% for js in page.js %}
+    <script type="text/javascript" src="/js/{{ js }}" /></script>
+    {% endfor %}
+    {% endif %}
+
+    {% include analytics.html %}
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <div id="page" class="container">
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

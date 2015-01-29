@@ -1,0 +1,32 @@
+---
+layout: default
+title: Developer Blog
+feed: /blog/atom.xml
+css:
+ - post.css
+---
+
+{% assign latest_post = site.categories.blog.first %}
+
+{% if latest_post != null %}
+<div class="post">
+  <a class="feed" href="{{ page.feed }}">{% include images/feed.svg %}</a>
+  <h1><a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h1>
+  <p class="post-info">{{ latest_post.date | date_to_string }} &mdash; {{ latest_post.author }}</p>
+
+  <div class="post-content">{{ latest_post.content }}</div>
+
+  <p><a href="{{ latest_post.url }}#comments">Comments</a></p>
+</div>
+
+<hr />
+
+<div>
+  <p><a href="archive.html">Archive</a></p>
+  <ul>
+  {% for post in site.categories.blog offset:1 limit:5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+{% endif %}
