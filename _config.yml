@@ -4,43 +4,4 @@ server_port: 2222
 markdown: rdiscount
 pygments: true
 permalink: date
-libraries:
-  ronin-support:
-    name: Ronin Support
-    version: 0.4.0
-    description: A support library for Ronin.
 
-  ronin:
-    name: Ronin
-    version: 1.4.0
-    description: A Ruby platform for exploit development and security research.
-
-  ronin-gen:
-    name: Ronin Gen
-    version: 1.1.0
-    description: A Ruby library for Ronin that provides various generators.
-
-  ronin-web:
-    name: Ronin Web
-    version: 0.3.0.rc1
-    description: A Ruby library for Ronin that provides support for web scraping and spidering functionality.
-
-  ronin-asm:
-    name: Ronin ASM
-    version: 0.2.0
-    description: A Ruby DSL for crafting Assmebly programs and Shellcode.
-
-  ronin-sql:
-    name: Ronin SQL
-    version: 1.0.0
-    description: A Ruby DSL for crafting SQL Injections.
-
-  ronin-exploits:
-    name: Ronin Exploits
-    version: 1.0.0.pre1
-    description: A Ruby library for Ronin that provides exploitation and payload crafting functionality.
-
-  ronin-scanners:
-    name: Ronin Scanners
-    version: 0.1.4
-    description: A Ruby library for Ronin that provides Ruby interfaces to various third-party security scanners.
