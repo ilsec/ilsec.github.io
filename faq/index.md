@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Frequently Asked Questions
-feed: /blog/atom.xml
 css:
  - examples.css
 js:
