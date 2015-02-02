@@ -10,12 +10,15 @@ js:
 
 # ilsec
 
-ilsec is a personal site to show my ability.
+分享些技术文章与代码之类的东西，以供学习之用。
 
-# file
+### blog
 
-file saved pan.baidu.com
+此博客源码修改的是[ronin-ruby.github.io](ronin-ruby.github.io)，有兴趣的可以看看。
 
-# image
+### resource
 
-image saved www.topit.me
+文件存储在[pan.baidu.com](pan.baidu.com)。
+
+图片存储在[www.topit.me](www.topit.me)。
+
