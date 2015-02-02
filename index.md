@@ -14,11 +14,17 @@ js:
 
 ### blog
 
-此博客源码修改的是[ronin-ruby.github.io](ronin-ruby.github.io)，有兴趣的可以看看。
+此博客源码修改的是[ronin-ruby.github.io][3]，有兴趣的可以看看。
 
 ### resource
 
-文件存储在[pan.baidu.com](pan.baidu.com)。
+文件存储在[pan.baidu.com][1]。
 
-图片存储在[www.topit.me](www.topit.me)。
+图片存储在[www.topit.me][2]。
+
+
+
+[1]: http://pan.baidu.com        "baidu pan"
+[2]: http://www.topit.me         "topit"
+[3]: ronin-ruby.github.io        "ronin"
 
