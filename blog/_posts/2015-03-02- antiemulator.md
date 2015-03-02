@@ -21,7 +21,7 @@ author: ilsec
 
 链接一: [检测android模拟器的方法]
 
-链接二:[Android反调试之 AntiEmulator 检测安卓模拟器]
+链接二: [Android反调试之 AntiEmulator 检测安卓模拟器]
 
 [检测android模拟器的方法]:http://blog.163.com/lyzaily@126/blog/static/4243883720132755797
 
