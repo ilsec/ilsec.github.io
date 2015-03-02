@@ -125,6 +125,12 @@ code
 
 这道题考的是通用的反调试方式，不过将直接调用的系统函数比如*kill*以`dlsym(handle, "kill")`的方式引用，这样的作用是静态分析的时候不会出现*kill*引用，增加静态分析难度。
 
+对于自动化屏蔽反调试工具，可以这样做：
+首先以so作为载体。
+先用inotify监控/proc/pid/status，来判断是否需要屏蔽反调试。
+然后hook open，fopen，fgets，ptrace等函数，将返回值都做修改。
+最后修改目标apk的smali让此so优先加载，然后将此so打包到目标apk。
+
 **AliCrackme_3**
 
 **AliCrackme_4**
