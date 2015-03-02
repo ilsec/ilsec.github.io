@@ -8,18 +8,14 @@ author: ilsec
 
 * Goldfish
 
-`
-
-	检测*ro.hardware*,若为*goldfish*，则可判断为虚拟机运行。
-
-	Goldfish是一个虚拟cpu，是一种ARM处理器。Android模拟器通过运行它来运行arm926t指令集（arm926t属于armv5构架）。它的核心内容存放在：arch/arm/mach-goldfish。
-`
+>
+检测*ro.hardware*,若为*goldfish*，则可判断为虚拟机运行。
+Goldfish是一个虚拟cpu，是一种ARM处理器。Android模拟器通过运行它来运行arm926t指令集（arm926t属于armv5构架）。它的核心内容存放在：arch/arm/mach-goldfish。
 
 * brand
 
-`
-	检测Build.BRAND,如果这句代码在基于ARM CPU的模拟器中运行，其值为”generic”。
-`
+>
+检测Build.BRAND,如果这句代码在基于ARM CPU的模拟器中运行，其值为”generic”。
 
 ##参考链接：
 
