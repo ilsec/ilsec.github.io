@@ -34,7 +34,7 @@ author: ilsec
 	
 3. 现在探究此算法的原理，看图一代码逻辑，如下：
 
-code:
+code
 
 	1. String v2 = MainActivity.bytesToAliSmsCode(v5, v3.getBytes("utf-8"));
        
