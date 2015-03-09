@@ -133,6 +133,11 @@ code
 
 **AliCrackme_3**
 
+解题思路：
+
+1. 还是要先过反调试，静态分析libmobisec.so,初步认定是ptrace做的反调，所以要nop调用ptrace的主函数，反调一般都是在so初始化调用的，所以定位到jni_onload里。接下来是静态分析函数调用找到反调的关键函数调用：import表里查找ptrace，直到找到j_j_ptrace。然后X键查看j_j_ptrace的调用函数，会找到三个，分别是*.text:0002314E*,*sub_23234+E*,*sub_23358+E*,然后查找这三个函数的调用者，直到找到在jni_onload里的调用，即：`.text:000111BC BL sub_86A28`，nop掉这个调用即可过反调试。
+2. 还原dex。
+
 **AliCrackme_4**
 
 **AliCrackme_5**
