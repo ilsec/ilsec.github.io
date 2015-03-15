@@ -11,6 +11,7 @@ author: ilsec
 2. 在appstore中下载 *OS X Yosemite*
 
 3. 执行如下命令:
+
 `sudo /Applications/Install\ OS\ X\
 Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/u
 盘名字 --applicationpath /Applications/Install\ OS\ X\ Yosemite.app
