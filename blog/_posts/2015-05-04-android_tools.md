@@ -35,6 +35,8 @@ author: ilsec
 
 ##参考链接##
 
-[http://jd.benow.ca/](http://jd.benow.ca/)
+[smali](http://code.google.com/p/smali/)
+
+[jd-gui](http://jd.benow.ca/)
 
 [http://bbs.pediy.com/showthread.php?t=200230](http://bbs.pediy.com/showthread.php?t=200230)
