@@ -73,7 +73,7 @@ code
 3. 启动android_server
 4. 启动ida，附加到app上，下好断点，运行app。
 5. 启动DDMS，查看app调试端口号，一般为8700,然后执行命令：jdb -connect com.sun.jdi.SocketAttach:hostname=127.0.0.1,port=8700
-6. jdb调试必须开ddms，很奇怪啊。
+6. jdb调试必须开ddms，打开ddms貌似是打开手机的调试端口8700。
 7. ida调试开始。
 8. 注意：调试多线程断点有时候命中不了，需要单步在线程之前。调试观察lr返回值位置。
 
