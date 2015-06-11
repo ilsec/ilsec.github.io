@@ -22,14 +22,19 @@ author: ilsec
 
 ##其它命令
 
-* vmstat
-* df
-* netcfg
-* logcat
-* dumpsys
-* top
-* local.prop (log.tag.SQLiteStatements=VERBOSE log.tag.SQLiteTime=VERBOSE)	
-* 
+*vmstat*
+
+*df*
+
+*netcfg*
+
+*logcat*
+
+*dumpsys*
+
+*top*
+
+*local.prop (log.tag.SQLiteStatements=VERBOSE log.tag.SQLiteTime=VERBOSE)*
 
 ##参考
 
