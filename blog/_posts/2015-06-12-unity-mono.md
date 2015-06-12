@@ -26,8 +26,8 @@ author: ilsec
 
 4. 编译过程中若出现*libstdc++.so.6: cannot open shared obj*，则需要执行安装命令
 
-```sudo apt-get install lib32stdc++6```	
+		sudo apt-get install lib32stdc++6
 
 5. 编译过程中若出现bison未找到，则安装bison
 
-```sudo apt-get install bison```
+	sudo apt-get install bison
