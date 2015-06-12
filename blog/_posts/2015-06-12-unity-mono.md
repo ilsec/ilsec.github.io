@@ -12,7 +12,7 @@ author: ilsec
 
 * check out
 
-		git clone https://github.com/Unity-Technologies/mono.git
+			git clone https://github.com/Unity-Technologies/mono.git
 
 ##编译环境
 
