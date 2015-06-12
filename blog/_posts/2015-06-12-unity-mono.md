@@ -24,7 +24,7 @@ mono源码目录下的**external/buildscripts/build_runtime_android.sh**放到�
 
 编译时会出现```perl -w```错误，所以这里手动编译**external/android_krait_signal_handler**,将编译生成的**libkrait-signal-handler.a**文件放到**android-ndk-r9/platforms/android-9/arch-arm/usr/lib**目录下。将**build_runtime_android.sh**中对应的语句注释掉。
 
-编译过程中若出现*libstdc++.so.6: cannot open shared obj*，则需要执行安装命令
+> 编译过程中若出现*libstdc++.so.6: cannot open shared obj*，则需要执行安装命令
 
 		sudo apt-get install lib32stdc++6	
 
