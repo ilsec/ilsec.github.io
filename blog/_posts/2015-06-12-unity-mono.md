@@ -10,6 +10,8 @@ author: ilsec
 
 ##[unity mono](https://github.com/Unity-Technologies/mono)
 
+check out
+
 		git clone https://github.com/Unity-Technologies/mono.git
 
 ##编译环境
