@@ -30,4 +30,4 @@ author: ilsec
 
 5. 编译过程中若出现bison未找到，则安装bison
 
-	sudo apt-get install bison
+		sudo apt-get install bison
