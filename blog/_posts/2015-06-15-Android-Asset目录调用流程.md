@@ -33,4 +33,22 @@ author: ilsec
 
 [frameworks/base/libs/utils/ZipFileRO.cpp](http://code.metager.de/source/xref/android/1.6/frameworks/base/libs/utils/ZipFileRO.cpp)
 
+##读取ASSET目录流程
+
+	libutil.so.AssetManager::open
+	libutil.so.AssetManager::openNonAssetInPathLocked
+	libutil.so.AssetManager::openAssetFromZipLocked
+	libutil.so.AssetManager::createFromUncompressedMap
+	libutil.so.Asset::openChunk(android::FileMap *)
+	libutil.so.ssize_t _FileAsset::read(void* buf, size_t count)
+
+	libandroid_runtime.so.AssetStreamAdaptor::read
+	
+	
+	
+	
+	
+
+	
+
 
