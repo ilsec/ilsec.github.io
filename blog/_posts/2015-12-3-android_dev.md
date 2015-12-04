@@ -1,5 +1,3 @@
-#ANDROID 开发
-
 ---
 layout: post
 title: android develop
