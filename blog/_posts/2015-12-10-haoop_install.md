@@ -4,7 +4,7 @@ title: hadoop install
 author: ilsec
 ---
 
-![hadoop](http://github.com/ilsec/images/blob/master/hadoop_001.png)
+![hadoop](https://github.com/ilsec/images/blob/master/hadoop_001.png?raw=true)
 
 ---
 ##参考链接
