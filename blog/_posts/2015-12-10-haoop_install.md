@@ -6,8 +6,8 @@ author: ilsec
 
 ##环境
 
-1. 实验系统选择ubuntu比较好。
-2. hadoop版本选择最新的.
+* 实验系统选择ubuntu比较好。
+* hadoop版本选择最新的.
 
 ##hadoop部署
 
