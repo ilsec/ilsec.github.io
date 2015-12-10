@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hadoop 安装教程
+title: hadoop install
 author: ilsec
 ---
 
