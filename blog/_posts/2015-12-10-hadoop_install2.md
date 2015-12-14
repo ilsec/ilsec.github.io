@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hadoop install (集群配置)
+title: hadoop install2
 author: ilsec
 ---
 
