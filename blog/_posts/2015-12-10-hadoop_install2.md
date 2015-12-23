@@ -153,6 +153,42 @@ cp mapred-site.xml.template mapred-site.xml
 </property>
 ```
 
+```
+//此配置可访问webapp
+<?xml version="1.0"?>
+ <configuration>
+
+ <!-- Site specific YARN configuration properties -->
+  <property>
+  <name>Yarn.nodemanager.aux-services</name>
+  <value>mapreduce.shuffle</value>
+  </property>
+  <property>
+  <description>The address of the applications manager interface in the RM.</description>
+  <name>Yarn.resourcemanager.address</name>
+  <value>192.168.137.8:18040</value>
+  </property>
+
+  <property>
+  <description>The address of the scheduler interface.</description>
+  <name>Yarn.resourcemanager.scheduler.address</name>
+  <value>192.168.137.8:18030</value>
+  </property>
+
+  <property>
+  <description>The address of the RM web application.</description>
+  <name>Yarn.resourcemanager.webapp.address</name>
+  <value>192.168.137.8:18088</value>
+  </property>
+
+  <property>
+  <description>The address of the resource tracker interface.</description>
+  <name>Yarn.resourcemanager.resource-tracker.address</name>
+  <value>192.168.137.8:8025</value>
+  </property>
+ </configuration>
+```
+
 将Master的配置复制到Slave1上
 
 ```
