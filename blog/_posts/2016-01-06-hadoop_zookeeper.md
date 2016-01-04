@@ -34,7 +34,7 @@ dataLogDir=$ZOOKEEPER_HOME/log
 
 server.1=Master:2888:3888
 server.2=Slave1:2888:3888
-server.3=Slave3:2888:3888
+server.3=Slave2:2888:3888
 ```
 
 将 *zoo.cfg* 拷贝到 *Slave1* , *Slave2*
