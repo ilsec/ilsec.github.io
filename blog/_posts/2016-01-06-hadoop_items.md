@@ -90,6 +90,7 @@ hadoop dfsadmin -refreshNodes
 hadoop dfsadmin -report
 ```
 
+## 参考链接
 ----
 
 [添加和删除hadoop集群中的节点](http://www.cnblogs.com/tommyli/p/3418273.html)
