@@ -62,6 +62,7 @@ start-balancer.sh
 ## 删除节点
 
 修改**$hadoop_env/etc/hadoop/hdfs-site.xml**
+
 ```
 <property>
     <name>dfs.hosts.exclude</name>
@@ -82,6 +83,7 @@ start-balancer.sh
 新建**excludes**文件，添加要删除的hostname
 
 删除节点命令
+
 ```
 hadoop mradmin -refreshNodes
 hadoop dfsadmin -refreshNodes
