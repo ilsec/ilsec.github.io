@@ -83,5 +83,7 @@ zkCli.sh -server Master:2181
 ---
 
 [Hadoop+HBase+ZooKeeper三者关系与安装配置](http://edu.dataguru.cn/thread-241488-1-1.html)
+
 [ZooKeeper-3.3.4集群安装配置](http://blog.csdn.net/shirdrn/article/details/7183503)
+
 [zookeeper-3.5.1-alpha](http://zookeeper.apache.org/doc/r3.5.1-alpha/zookeeperStarted.html)
