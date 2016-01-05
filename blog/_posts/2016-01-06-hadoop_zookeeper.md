@@ -87,3 +87,5 @@ zkCli.sh -server Master:2181
 [ZooKeeper-3.3.4集群安装配置](http://blog.csdn.net/shirdrn/article/details/7183503)
 
 [zookeeper-3.5.1-alpha](http://zookeeper.apache.org/doc/r3.5.1-alpha/zookeeperStarted.html)
+
+[基于ZooKeeper大规模集群配置系统概述](http://www.cnblogs.com/cobbliu/archive/2011/11/04/2389009.html)
