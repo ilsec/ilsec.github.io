@@ -36,7 +36,7 @@ export PATH=PATH:$HBASE_HOME/bin
 
     <property>
         <name>hbase.master</name>
-        <value>hdfs://Master:60000</value>
+        <value>Master:60000</value>
     </property>
 
 </configuration>
