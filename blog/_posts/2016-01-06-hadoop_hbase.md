@@ -42,6 +42,14 @@ export PATH=PATH:$HBASE_HOME/bin
 </configuration>
 ```
 
+修改配置文件 *$HBASE_HOME/conf/hbase-env.sh*
+
+```
+export HBASE_PID_DIR=/usr/local/hbase/pids
+export JAVA_HOME=...
+export HBASE_MANAGES_ZK=false  
+```
+
 将配置复制到集群中
 
 ```
@@ -58,7 +66,7 @@ scp -r /usr/local/hbase/ hadoop@Slave2:/usr/local/hbase
 ## 启动hbase
 
 1. 启动hadoop
-2. 启动zookeeper
+2. 启动zookeeper (前提是：export HBASE_MANAGES_ZK=false,不然需要修改conf/)
 3. 启动hbase
 
 ---
