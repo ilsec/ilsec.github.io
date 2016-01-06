@@ -60,3 +60,17 @@ scp -r /usr/local/hbase/ hadoop@Slave2:/usr/local/hbase
 1. 启动hadoop
 2. 启动zookeeper
 3. 启动hbase
+
+---
+
+## 参考链接
+
+[HBase分布式集群环境搭建](http://blog.csdn.net/huoyunshen88/article/details/9144039)
+
+[手把手教你配置Hbase完全分布式环境](http://my.oschina.net/lanzp/blog/348116)
+
+[Hbase集群安装配置](http://blog.csdn.net/chenxingzhen001/article/details/7756129)
+
+[hadoop hbase维护问题总结](http://my.oschina.net/u/1169607/blog/347670)
+
+[Hbase无法启动，报：Address already in use](http://my.oschina.net/hanzhankang/blog/130857)
