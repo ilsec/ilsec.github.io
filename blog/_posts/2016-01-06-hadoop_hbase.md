@@ -80,6 +80,18 @@ scp -r /usr/local/hbase/ hadoop@Slave2:/usr/local/hbase
 2. 启动zookeeper (前提是：export HBASE_MANAGES_ZK=false,不然需要修改conf/)
 3. 启动hbase
 
+## hbase 几本操作
+
+删除表
+
+```
+// 先禁用t1，再删除t1
+disable 't1'
+drop 't1'
+```
+
+
+
 ---
 
 ## 参考链接
@@ -99,3 +111,5 @@ scp -r /usr/local/hbase/ hadoop@Slave2:/usr/local/hbase
 [hbase Hmaster 进程启动后一会消失的问题解决过程](http://f.dataguru.cn/thread-246372-2-1.html)
 
 [全分布式下安装hbase](http://www.dataguru.cn/article-2674-1.html)
+
+[HBase教程](http://www.yiibai.com/hbase/hbase_create_data.html)
