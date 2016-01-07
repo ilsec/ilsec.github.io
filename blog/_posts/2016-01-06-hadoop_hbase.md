@@ -6,7 +6,7 @@ author: ilsec
 
 ## 安装 HBase 集群
 
-将 *hbase-0.98.16.1-hadoop1-bin.tar* 解压到 */usr/local/hbase*
+将 *hbase-0.98.16.1-hadoop2-bin.tar* 解压到 */usr/local/hbase*
 
 修改环境变量 *~/.bashrc*
 
@@ -50,6 +50,13 @@ export JAVA_HOME=...
 export HBASE_MANAGES_ZK=false  
 ```
 
+修改配置文件 *$HBASE_HOME/conf/regionservers*
+
+```
+Slave1
+Slave2
+```
+
 将配置复制到集群中
 
 ```
@@ -82,3 +89,9 @@ scp -r /usr/local/hbase/ hadoop@Slave2:/usr/local/hbase
 [hadoop hbase维护问题总结](http://my.oschina.net/u/1169607/blog/347670)
 
 [Hbase无法启动，报：Address already in use](http://my.oschina.net/hanzhankang/blog/130857)
+
+[HBase：HMaster启动后自动关闭](http://blog.chinaunix.net/xmlrpc.php?r=blog/article&id=4008535&uid=26275986)
+
+[hbase Hmaster 进程启动后一会消失的问题解决过程](http://f.dataguru.cn/thread-246372-2-1.html)
+
+[全分布式下安装hbase](http://www.dataguru.cn/article-2674-1.html)
