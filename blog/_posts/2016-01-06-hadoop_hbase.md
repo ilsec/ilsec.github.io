@@ -8,6 +8,10 @@ author: ilsec
 
 将 *hbase-0.98.16.1-hadoop2-bin.tar* 解压到 */usr/local/hbase*
 
+```
+要注意  hadoop2 与 hadoop1 对应的 hbase，不然 hmaster会闪退
+```
+
 修改环境变量 *~/.bashrc*
 
 ```
