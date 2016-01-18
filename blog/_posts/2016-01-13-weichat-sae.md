@@ -81,12 +81,13 @@ if (isset($_GET["echostr"])) {
 //define your token
 define("TOKEN", "weixin");
 $wechatObj = new wechatCallbackapi();
+
 if (isset($_GET["echostr"])) {
-  $wechatObj->valid();
+    $wechatObj->valid();
 }else{
-  $wechatObj->responseMsg();
+    $wechatObj->responseMsg();
 }
-//$wechatObj->valid();
+
 class wechatCallbackapi
 {
 	public function valid()
@@ -95,7 +96,6 @@ class wechatCallbackapi
 
         //valid signature , option
         if($this->checkSignature()){
-          header('content-type:text');
         	echo $echoStr;
         	exit;
         }
@@ -105,7 +105,7 @@ class wechatCallbackapi
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-    var_dump($postStr);
+
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
