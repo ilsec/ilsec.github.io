@@ -6,7 +6,7 @@ author: ilsec
 
 ##说明
 
-能力不够，所以未参加阿里的移动安全挑战赛，但是阻止不了我学习大牛的破解思路，这里就从大牛的破解思路学习android破解。
+...
 
 ##参考链接
 
@@ -29,15 +29,15 @@ author: ilsec
 解题思路：
 
 1. JEB打开Alicrackme_1.apk，左边树选择MainActivity，右边窗口选择Assembly，按下tab键，选择Decompiled java，就会看到逆出来的java源码了。
-	
+
 2. 看图一可知：安装apk后看手机日志即可分析出密码，即爆破法。输入012345678，然后看日志，找出对应的数字即可。
-	
+
 3. 现在探究此算法的原理，看图一代码逻辑，如下：
 
 code
 
 	1. String v2 = MainActivity.bytesToAliSmsCode(v5, v3.getBytes("utf-8"));
-       
+
 	2. if(v4 == null || (v4.equals("")) || !v4.equals(v2))
 
 	3.
