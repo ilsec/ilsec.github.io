@@ -188,6 +188,13 @@ Android6.0规定的危险权限有下面这些：
 ### 动态权限的申请方式
 
 ```
+// 判断是否动态申请到权限
+ActivityCompat.checkSelfPermission(this, permission);
+
+//当第一次未申请到权限时，第二次给用户提示
+ActivityCompat.shouldShowRequestPermissionRationale(this, permission)
+
+//申请权限
 ActivityCompat.requestPermissions(final @NonNull Activity activity,
             final @NonNull String[] permissions, final int requestCode)
 ```
